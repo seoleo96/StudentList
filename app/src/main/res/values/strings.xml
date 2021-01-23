@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">StudentsList</string>
+    <string name="total_number_of_students">Total number of students -</string>
+    <string name="lest_name_hint">Enter last name</string>
+    <string name="first_name_16sp">Enter first name</string>
+    <string name="add_button_text">ADD</string>
+    <string name="show_students">show</string>
+    <string name="field_empty">\"A field can not be empty!\"</string>
+    <string name="contains_student">This student has already defined</string>
+    <string name="student_has_added">student has successfully added</string>
+
+    <string-array name="firstNames">
+        <item>"Quentin"</item>
+        <item>"Christopher"</item>
+        <item>"James"</item>
+    </string-array>
+
+    <string-array name="lastNames">
+        <item>"Tarantino"</item>
+        <item>"Nolan"</item>
+        <item>"Cameron"</item>
+    </string-array>
+</resources>

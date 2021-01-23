@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/margin_top_16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp32"
+        android:layout_marginLeft="@dimen/dp32"
+        tools:text="1234567890234567890"
+        android:maxLines="1"
+        android:maxWidth="240dp"
+        android:textSize="@dimen/sp24"
+        android:textColor="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_8"
+        tools:text="FirsNajk\gjhdsdfkjkdsfahgdasdhkjdsgkhdsjkdfsgdsjdsjjjdgjkdsfgkkhkhjme"
+        android:textSize="@dimen/sp24"
+        android:maxLines="1"
+        android:maxWidth="@dimen/max_width_220dp"
+        android:textColor="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="@+id/firstName"
+        app:layout_constraintStart_toEndOf="@+id/firstName"
+        app:layout_constraintTop_toTopOf="@+id/firstName"
+        android:layout_marginLeft="@dimen/dp_8" />
+</androidx.constraintlayout.widget.ConstraintLayout>

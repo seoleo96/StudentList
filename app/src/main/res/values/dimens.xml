@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="counterStudents_textSize">16sp</dimen>
+    <dimen name="marginTop_100dp">100dp</dimen>
+    <dimen name="marginLeft_50dp">50dp</dimen>
+    <dimen name="layout_height_60dp">60dp</dimen>
+    <dimen name="margin_top_16dp">16dp</dimen>
+    <dimen name="textSize_16sp">16sp</dimen>
+    <dimen name="margin_top_160dp">160dp</dimen>
+    <dimen name="layout_height_40dp">40dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="margin_140dp">140dp</dimen>
+    <dimen name="min_three_dp_3dp">3dp</dimen>
+    <dimen name="dp32">32dp</dimen>
+    <dimen name="sp24">24sp</dimen>
+    <dimen name="max_width_220dp">220dp</dimen>
+    <dimen name="maxwidth">250dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+</resources>
