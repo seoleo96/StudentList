@@ -23,10 +23,6 @@ class MainActivity : AppCompatActivity() {
         showImage()
         totalNumberOfStudents()
 
-        mBinding.showButton.setOnClickListener {
-            addStudent()
-        }
-
         with(mBinding){
             addButton.setOnClickListener {
                 addStudent()
